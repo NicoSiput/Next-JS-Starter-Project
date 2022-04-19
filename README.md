@@ -1,3 +1,17 @@
+## Introduction
+
+This project is a starter kit for building projects with [Next.js](https://nextjs.org/) framework.
+
+Inside this project, have been included:
+
+- FrontEnd Framework: [Next.js](https://nextjs.org/) v12
+- CSS Framework: [TailwindCSS](https://tailwindcss.com/) v3
+- Axios
+- Styled Component
+- other features will update later..
+
+Feel free to fork this repository if you guys want build [Next.js](https://nextjs.org/) project not from scratch.
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
@@ -5,9 +19,9 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 First, run the development server:
 
 ```bash
-npm run dev
+npm run start:dev
 # or
-yarn dev
+yarn start:dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
