@@ -14,6 +14,12 @@ Feel free to fork this repository if you guys want build [Next.js](https://nextj
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
+Hope this starter-project help you :)
+
+###### Warm Regards,
+
+###### @NicoSiput
+
 ## Getting Started
 
 First, run the development server:
