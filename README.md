@@ -16,9 +16,9 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 Hope this starter-project help you :)
 
-###### Warm Regards,
+Warm Regards,
 
-###### @NicoSiput
+[@NicoSiput](https://github.com/NicoSiput)
 
 ## Getting Started
 
