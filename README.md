@@ -8,6 +8,7 @@ Inside this project, have been included:
 - CSS Framework: [TailwindCSS](https://tailwindcss.com/) v3
 - Axios
 - Styled Component
+- SWR
 - other features will update later..
 
 Feel free to fork this repository if you guys want build [Next.js](https://nextjs.org/) project not from scratch.
