@@ -24,7 +24,8 @@
       "@layouts/*": ["src/layouts/*"],
       "@configs/*": ["src/configs/*"],
       "@helpers/*": ["src/helpers/*"],
-      "@parts/*": ["src/parts/*"]
+      "@parts/*": ["src/parts/*"],
+      "@utils/*": ["src/utils/*"]
     },
     "incremental": true
   },
