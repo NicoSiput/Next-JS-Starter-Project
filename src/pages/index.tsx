@@ -34,14 +34,10 @@ const Home: NextPage = () => {
       <div className="mt-5">
         <p>What package inside:</p>
         <ul className="list-disc ml-5">
-          {packages.map((item) => (
-            <li>
+          {packages.map((item, i) => (
+            <li key={i}>
               {item.name}{' '}
-              {item.value ? (
-                <span className="font-bold">: {item.value}</span>
-              ) : (
-                ''
-              )}
+              {item.value ? <span className="font-bold">: {item.value}</span> : ''}
             </li>
           ))}
         </ul>
