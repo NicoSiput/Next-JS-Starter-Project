@@ -4,12 +4,19 @@ const withImages = require('next-images');
 
 const path = require('path');
 
-module.exports = withPlugins([
-  withImages({}),
-  withReactSvg({
-    include: path.resolve(__dirname, './public/images'),
-    webpack(config, options) {
-      return config;
-    },
-  }),
-]);
+module.exports = withPlugins(
+  [
+    withImages({}),
+    withReactSvg({
+      include: path.resolve(__dirname, './public/images'),
+      webpack(config) {
+        return config;
+      },
+    }),
+  ],
+  {
+    // experimental: {
+    //   forceSwcTransforms: true,
+    // },
+  },
+);
